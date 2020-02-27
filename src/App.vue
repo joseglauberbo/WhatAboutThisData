@@ -1,15 +1,19 @@
 <template>
   <div class="container">
     <img src="./assets/logo2.png">
+    <Button/> 
   </div>
+  
 </template>
 
 <script>
 
+import Button from "./components/button"
+
 export default {
   name: 'App',
   components: {
-
+    Button
   }
 }
 </script>
