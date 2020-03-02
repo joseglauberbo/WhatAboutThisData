@@ -7,20 +7,16 @@
 </template>
 
 <script>
-
 export default {
   name: "Button"
 }
-
 </script>
 
 <style>
 
 .buttons {
   text-align: center;
-  margin-top: 10px;
 }
-
 .efect {
   border: none;
   color: #ffffff;

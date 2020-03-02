@@ -1,14 +1,14 @@
 <template>
   <div class="container">
     <img src="./assets/logo2.png">
-    <Button/> 
-  </div>
-  
+    <Button> </Button>
+    <router-view></router-view>
+  </div>  
 </template>
 
 <script>
 
-import Button from "./components/button"
+import Button from "./components/Button"
 
 export default {
   name: 'App',
@@ -20,8 +20,8 @@ export default {
 
 <style>
 .container img {
-   max-width:1000px;
-   max-height:600px;
+   max-width:900px;
+   max-height:500px;
    display: block;
    margin-left: auto;
    margin-right: auto
