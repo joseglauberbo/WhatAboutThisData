@@ -1,7 +1,7 @@
 <template>
   <div class="containerCards">
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-    <router-link to="/music/1"><button type="button" class="buttonsCards"> browsing what we hear on spotify </button></router-link>
+    <router-link to="/music/1"><button type="button" class="buttonsCards"> browsing what I hear on spotify </button></router-link>
   </div>
 </template>
 

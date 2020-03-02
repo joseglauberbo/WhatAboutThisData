@@ -37,6 +37,7 @@ export default {
 h1 {
   font-family: 'Lobster';
   text-align: justify;
+  margin-top: -15px;
   font-size: 40px;
   color: #363636;
 }
