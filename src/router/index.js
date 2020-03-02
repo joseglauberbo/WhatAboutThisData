@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '../components/views/Home'
 import Music from '../components/views/Music'
 import Politic from '../components/views/Politic'
+import SpotifyMusic from '../components/views/SpotifyMusic'
 
 Vue.use(Router)
 
@@ -23,6 +24,12 @@ export default new Router({
       path: '/politic',
       name: 'Politic',
       component: Politic
+    },
+    {
+      path: '/music/1',
+      name: 'SpotifyMusic',
+      component: SpotifyMusic
+
     }
   ]
 })

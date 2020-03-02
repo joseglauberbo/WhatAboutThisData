@@ -15,7 +15,7 @@ export default {
       const textArray = element.innerHTML.split('');
       element.innerHTML = '';
       textArray.forEach((letter, index) => {
-      setTimeout(() => element.innerHTML += letter, 90 * index);
+      setTimeout(() => element.innerHTML += letter, 85 * index);
       });
     }
   },
@@ -38,5 +38,6 @@ h1 {
   font-family: 'Lobster';
   text-align: justify;
   font-size: 40px;
+  color: #363636;
 }
 </style>
