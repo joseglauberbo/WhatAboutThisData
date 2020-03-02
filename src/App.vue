@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <img src="./assets/logo2.png">
-    <Button> </Button>
     <router-view></router-view>
+    <Button> </Button>
   </div>  
 </template>
 
@@ -20,7 +20,7 @@ export default {
 
 <style>
 .container img {
-   max-width:900px;
+   max-width:800px;
    max-height:500px;
    display: block;
    margin-left: auto;

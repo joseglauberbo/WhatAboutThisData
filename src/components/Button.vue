@@ -1,8 +1,9 @@
 <template>
   <div class="buttons">
-  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-    <router-link to="/music"><button type="button" class="efect"> Music </button></router-link>
-    <router-link to="/politic"><button type="button" class="efect"> Politic </button></router-link>
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <router-link to="/"><button type="button" class="efect"> Home </button></router-link>
+  <router-link to="/music"><button type="button" class="efect"> Music </button></router-link>
+  <router-link to="/politic"><button type="button" class="efect"> Politic </button></router-link>
   </div>
 </template>
 
@@ -30,7 +31,7 @@ export default {
   cursor: pointer;
   transition: all 400ms ease;
   background-color: #87CEEB;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Lobster', cursive;
 }
 
 .efect:hover {
