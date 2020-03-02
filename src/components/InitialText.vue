@@ -11,17 +11,17 @@
 export default {
   name: 'InitialText',
   methods: {
-      typeWriter(elemento) {
-      const textoArray = elemento.innerHTML.split('');
-      elemento.innerHTML = '';
-      textoArray.forEach((letra, i) => {
-      setTimeout(() => elemento.innerHTML += letra, 90 * i);
+      typeWriter(element) {
+      const textArray = element.innerHTML.split('');
+      element.innerHTML = '';
+      textArray.forEach((letter, index) => {
+      setTimeout(() => element.innerHTML += letter, 90 * index);
       });
     }
   },
   mounted: function() {
-    const titulo = document.getElementById('myclass');
-    console.log(this.typeWriter(titulo))
+    const title = document.getElementById('myclass');
+    console.log(this.typeWriter(title))
   }
 }
 </script>

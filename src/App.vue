@@ -2,18 +2,15 @@
   <div class="container">
     <img src="./assets/logo2.png">
     <router-view></router-view>
-    <Button> </Button>
   </div>  
 </template>
 
 <script>
 
-import Button from "./components/Button"
-
 export default {
   name: 'App',
   components: {
-    Button
+
   }
 }
 </script>
