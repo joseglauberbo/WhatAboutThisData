@@ -5,6 +5,7 @@ import Music from '../components/views/Music'
 import Politic from '../components/views/Politic'
 import SpotifyMusic from '../components/views/SpotifyMusic'
 import RihannaAlbumns from '../components/views/RihannaAlbumns'
+import IncomeDistribution from '../components/views/IncomeDistribution'
 
 Vue.use(Router)
 
@@ -30,13 +31,17 @@ export default new Router({
       path: '/music/1',
       name: 'SpotifyMusic',
       component: SpotifyMusic
-
     },
     {
       path: '/music/2',
       name: 'RihannaAlbumns',
       component: RihannaAlbumns
+    },
+    {
+      path: '/politic/1',
+      name: 'IncomeDistribution',
+      component: IncomeDistribution
+    },
 
-    }
   ]
 })
