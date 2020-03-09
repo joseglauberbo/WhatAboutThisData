@@ -32,6 +32,7 @@ export default {
   transition: all 400ms ease;
   background-color: #87CEEB;
   font-family: 'Lobster', cursive;
+  outline: none;
 }
 
 .efect:hover {
