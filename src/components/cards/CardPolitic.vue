@@ -1,7 +1,7 @@
 <template>
   <div class="containerCards">
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-    <router-link to="/politic/1"><button type="button" class="buttonsCards"> Income distribution of Campina Grande </button></router-link>
+    <router-link to="/politic/1"><button type="button" class="buttonsCardsPolitic"> Income distribution of Campina Grande </button></router-link>
   </div>
 </template>
 
@@ -20,7 +20,7 @@ export default {
   margin-left: auto;
   margin-right: auto;
 }
-.buttonsCards {
+.buttonsCardsPolitic {
   width:600px;
   height:70px;
   border: none;
@@ -34,13 +34,14 @@ export default {
   box-sizing: border-box;
   cursor: pointer;
   transition: all 400ms ease;
-  background-color: #66CDAA;
+  background-color: #F08080;
   font-family: 'Lobster', cursive;
+  outline: none;
 }
 
-.buttonsCards:hover {
+.buttonsCardsPolitic:hover {
   background: rgba(0,0,0,0);
-  color: #66CDAA;
-  box-shadow: inset 0 0 0 3px #66CDAA;
+  color: #F08080;
+  box-shadow: inset 0 0 0 3px #F08080;
 }
 </style>

@@ -26,6 +26,7 @@ export default {
   background-color: #F4A460;
   font-family: 'Lobster', cursive;
   transform: translate(240%,0%);
+  outline: none;
 }
 
 .buttonReturn:hover {
